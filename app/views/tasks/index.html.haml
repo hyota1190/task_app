@@ -1,1 +1,7 @@
-test
+.content
+  - @boards.each do |board|
+    .card    
+      %h1
+        = board.title
+      %h2
+        = board.content  
