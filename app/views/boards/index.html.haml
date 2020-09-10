@@ -1,0 +1,14 @@
+.content
+  - @boards.each do |board|
+    = link_to '#' do
+      .board
+        .board_title    
+          = board.title
+        .board_info
+          %h4
+            account: hyota.1190
+          %h4
+            board.created_at
+      
+        
+
