@@ -1,0 +1,13 @@
+.board {
+  padding: 10px;
+  border: solid 1px black;
+  
+  &_title{
+    font-size: 35px;
+    color: block;
+  }
+  
+  &_info {
+    color: gray;
+  }
+}
