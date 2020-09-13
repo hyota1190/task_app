@@ -1,6 +1,6 @@
-.content
+.container
   - @boards.each do |board|
-    = link_to '#' do
+    = link_to board_path(board) do
       .board
         .board_title    
           = board.title
